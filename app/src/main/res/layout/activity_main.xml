@@ -11,6 +11,7 @@
         android:layout_width="400dp"
         android:layout_height="90dp"
         android:ems="10"
+        android:text="enter the number of nodes"
         android:inputType="textPersonName"
 
         app:layout_constraintBottom_toTopOf="@+id/nbround"
@@ -18,7 +19,7 @@
         app:layout_constraintVertical_bias="0.163"
         tools:ignore="LabelFor,MissingConstraints"
         tools:layout_editor_absoluteX="3dp"
-        android:autofillHints="round" />
+        android:autofillHints="enter the number of nodes" />
 
     <EditText
         android:id="@+id/nbround"
@@ -27,11 +28,11 @@
         android:layout_marginBottom="56dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="round"
+        android:text="enter the number of rounds"
         app:layout_constraintBottom_toTopOf="@+id/possi"
         tools:ignore="HardcodedText,LabelFor,MissingConstraints"
         tools:layout_editor_absoluteX="17dp"
-        android:autofillHints="round" />
+        android:autofillHints="enter the number of rounds" />
 
     <EditText
         android:id="@+id/possi"
@@ -40,10 +41,11 @@
         android:layout_marginBottom="28dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="possibility"
+        android:text="enter possibility"
         app:layout_constraintBottom_toTopOf="@+id/maxi"
         tools:ignore="HardcodedText,LabelFor,MissingConstraints"
-        tools:layout_editor_absoluteX="13dp" />
+        tools:layout_editor_absoluteX="13dp"
+        android:autofillHints="enter possibility" />
 
     <EditText
         android:id="@+id/maxi"
@@ -52,10 +54,11 @@
         android:layout_marginBottom="32dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="enter the max value of energy"
         app:layout_constraintBottom_toTopOf="@+id/e"
         tools:layout_editor_absoluteX="16dp"
-        tools:ignore="HardcodedText,LabelFor,MissingConstraints,UnknownId" />
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints,UnknownId"
+        android:autofillHints="enter the maxx value of energy " />
 
     <EditText
         android:id="@+id/e"
@@ -64,16 +67,17 @@
         android:layout_marginBottom="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="e-cureent1,...."
         app:layout_constraintBottom_toTopOf="@+id/button"
         tools:layout_editor_absoluteX="13dp"
-        tools:ignore="HardcodedText,LabelFor,MissingConstraints" />
+        tools:ignore="HardcodedText,LabelFor,MissingConstraints"
+        android:autofillHints="e-cureent1,...." />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="start leach"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
